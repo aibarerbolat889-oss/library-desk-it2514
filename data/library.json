@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "category": "Programming"
+    },
+    {
+      "id": 2,
+      "title": "The Hobbit",
+      "category": "Fiction"
+    },
+    {
+      "id": 3,
+      "title": "C# in Depth",
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "title": "Dune",
+      "category": "Fiction"
+    },
+    {
+      "id": 5,
+      "title": "Database Design",
+      "category": "Technology"
+    },
+    {
+      "id": 6,
+      "title": "The Little Prince",
+      "category": "Fiction"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Aruzhan",
+      "kind": 0
+    },
+    {
+      "id": 2,
+      "name": "Dias",
+      "kind": 0
+    },
+    {
+      "id": 3,
+      "name": "Dana",
+      "kind": 1
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "bookId": 2,
+      "memberId": 2,
+      "start": "2026-10-19",
+      "due": "2026-11-02",
+      "renewed": false,
+      "returned": null,
+      "fine": 0,
+      "paid": false
+    },
+    {
+      "id": 2,
+      "bookId": 3,
+      "memberId": 1,
+      "start": "2026-10-26",
+      "due": "2026-11-09",
+      "renewed": false,
+      "returned": null,
+      "fine": 0,
+      "paid": false
+    }
+  ],
+  "reservations": []
+}

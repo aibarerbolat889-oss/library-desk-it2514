@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+data/session.json
+data/verify-*.json
+native/*.obj
+native/*.lib
+native/*.exp
+data/demo.json
